@@ -1,0 +1,49 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+#title {
+  background-color: yellow;
+  color: black;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.btn-red:hover {
+  background-image: linear-gradient(to bottom, red, teal);
+}
+
+.btn-red {
+  background-color: pink;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
